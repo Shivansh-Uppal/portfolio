@@ -1,0 +1,330 @@
+    :root{
+       --primary:#3DCFD3;
+       --dark:#161616;
+       --pure:#FFFFFF;
+       --ternary:#898989;
+       --light:#F2F2F2;
+   }
+   body{
+       font-family: 'Poppins','sans-serif';
+   }
+  .color-text {
+    color:rgb(71, 17, 122);
+  }
+
+  h2 {
+    font-size: 50px;
+    font-family: Lobster, monospace;
+    color:white;
+    text-align: center;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .thick-color-border {
+    border-color: brown;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+
+  .smaller-image {
+    width: 254px;
+    
+  }
+  .thumbnails{
+    float: right;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-block-start: 100px;
+    align-self: center;
+  }
+  .logo{
+      width:250px;
+      position: relative;
+      top:-0.5px;
+      right:200px;
+  }
+  header{
+      background-color: var(--dark);
+
+      clip-path: polygon(0 0,100% 0,100% 100%,70% 87%,0 100%);
+      height: 800px;
+  }
+  *{
+      padding:0;
+      margin:0;
+      box-sizing: border-box;
+      --webkit-font-smotthing:antialiased;
+  }
+  .container{
+      max-width:1152px;
+      padding:0 15px;
+      margin:0 auto;
+  }
+  header nav .left a{
+      color:var(--pure);
+      text-decoration: none;
+      margin-right: 2rem;
+      text-transform: uppercase;
+  }
+  header nav .left a:hover{
+      color:var(--primary);
+  }
+  .flex{
+    display:flex;
+}
+  .items-centre{
+      align-items: center;
+  }
+  .justify-between{
+      justify-content: space-between;
+    }
+  header nav{
+      padding:2rem 0;
+  }
+  header nav .branding{
+      padding:3rem 10;
+  }
+  .hero{
+      padding:3rem 0;
+  }
+  .btn{
+      padding:0.8rem 0.2rem;
+      font-size: 1rem;
+      font-weight: 600;
+      border:2px solid;
+      outline:none;
+      cursor:pointer;
+      text-transform: uppercase;
+      transition: all.3s ease;
+  }
+  .btn-primary{
+      background:var(--primary);
+      color:rgb(30, 4, 54);
+  }
+  .btn-primary:hover{
+      background: transparent;
+      border:blueviolet;
+      color:blue;
+  }
+  .btn-secondary{
+      background:gold;
+      color:black;
+      border-color:palevioletred;
+  }
+  .btn-secondary:hover{
+     background: var(--primary);
+     color:rgb(30, 4, 54);
+  }
+
+  .hero .right{
+      color:var(--pure);
+  }
+  .item-centre{
+      align-items: center;
+      text-align: right;
+  }
+  .hero .right h6{
+      color:chartreuse;
+      font-size:1.6rem;
+      margin-bottom: 0.5rem;
+  }
+  .hero .right h1{
+      font-size: 4rem;
+      font-weight: 100;
+      line-height: 1.2;
+      margin-bottom: 2rem;
+  }
+  .hero .right span{
+      color:orangered;
+  }
+  .hero .right p{
+      line-height: 1.9;
+      margin-bottom: 2rem;
+  }
+  .hero .right{
+      margin-top: -7rem;
+  }
+  .flex-1{
+      flex:1;
+  }
+  .justify-center{
+      justify-content: center;
+  }
+ .move{
+     margin-left: 350px;
+ }
+ .small{
+     width:250px;
+     border-radius: 10%;
+ }
+ .image{
+     width: 60px;
+     margin-bottom: -3;
+ }
+ section{
+     padding: 6rem  0;
+ }
+ section.about .h1{
+     margin-bottom: 1rem;
+     font-size: 1.6rem;
+     font-weight: 400;
+ }
+ section.about h1 span{
+     color:var(--primary);
+ }
+ section.about h3 {
+     font-size: 1rem;
+     margin-bottom: 1rem;
+     font-weight: 400;
+ }
+ section.about p{
+     color:blue;
+     line-height: 1.9;
+ }
+ section.about .social a{
+     justify-content: center;
+     position:relative;
+     padding:0.5rem;
+     }
+
+    .border{
+        border-radius: 30%;
+        border:2px,solid;
+    }
+     .between{
+           text-align: center;
+           background: silver;
+    }
+    .btn-tertiary{
+         margin-right: 2vh;
+         background: pink;
+         width:auto;
+         height:15vh;
+         border-radius: 15px;
+         justify-content: center;
+         text-align: center;
+         margin-left: 2vh;
+         margin-top: 2vh;
+         padding-bottom: 0px;
+         padding-left: 0px;
+         padding-right: 0px;
+         padding-top: 0px;
+    }
+    .btn-tertiary:hover{
+        background:wheat;
+        border-color: black;
+    }
+    .align{
+      margin-bottom: 25;
+    }
+    .align-1{
+        margin-top: 45;
+        margin-bottom: 25;
+    }
+    .smaller{
+          width:45px;
+          
+    }
+    .dropbtn {
+        background-color: var(--primary);
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .dropdown {
+        position: relative;
+        display: contents;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: relative;
+        background-color: black;
+        min-width: 160px;
+      }
+      
+      .dropdown-content a {
+        color: rgb(235, 19, 19);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content a:hover {background-color: #f1f1f1}
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      .dropdown:hover .dropbtn {
+        background-color:var(--ternary);
+      }
+      .animation{
+          animation-name: example;
+          animation-duration: 3s;
+          animation-iteration-count: infinite;
+          animation-timing-function: ease-in-out;
+      }
+      @keyframes example{
+          from{background-color: yellow;}
+          to{background-color: orchid;}
+      }
+      .between-2{
+        text-align: center;
+       
+ }
+ .section-heading{
+        color:#161616;
+        font-weight: bold;
+        font-style: italic;
+        font-family: cursive,'Times New Roman', Times, serif;
+        text-align: center;
+        margin-bottom: 6rem;
+        line-height: 0.5;
+ }
+         
+section.contact h1 span{
+          color: rgb(4, 41, 41);
+      }
+.smallest-image{
+          width:150px;
+    }
+section.contact .card-wrapper{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+
+}
+section.contact .card-wrapper .card{
+    background: var(--pure);
+    padding: 3rem 2rem;
+    position: relative;
+    padding-top: 0rem;
+}
+.borders{
+    border-width: 9rem;
+    border-radius: 40%;
+    border-color: burlywood;
+    border-style: dotted;
+    border: right 10px;
+    padding: 0rem  20px 0px -8px;
+    margin-right: -15rem;
+    margin-left: 19rem;
+    background: transparent;
+}
+.borders:hover{
+    animation-fill-mode: both;
+    animation-name: example2;
+    transition: all;
+}
+@keyframes example2 {
+    to{background-color:cadetblue;}
+}
